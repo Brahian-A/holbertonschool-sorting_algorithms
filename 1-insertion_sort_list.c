@@ -2,7 +2,7 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - Ordena una lista doblemente enlazada utilizando el algoritmo de Insertion Sort.
+ * insertion_sort_list - Ordena una lista doblemente enlazada
  * @list: Doble puntero a la cabeza de la lista.
  */
 void insertion_sort_list(listint_t **list)
@@ -29,7 +29,6 @@ void insertion_sort_list(listint_t **list)
 		{
 		key->next->prev = temp;
 		}
-            
 		temp->next = key->next;
 		key->prev = temp->prev;
 		key->next = temp;
