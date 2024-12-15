@@ -1,0 +1,3 @@
+Mejor caso: O(n²)
+Caso promedio: O(n²)
+Peor caso: O(n²)
